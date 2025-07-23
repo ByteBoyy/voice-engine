@@ -1,4 +1,6 @@
 # external imports
+import utils.transport
+import utils.session
 import os , uuid , asyncio
 from dotenv import load_dotenv
 from api_request_schemas import (SourceEnum , LanguageEnum)
